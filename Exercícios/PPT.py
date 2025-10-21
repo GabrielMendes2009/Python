@@ -1,5 +1,5 @@
-while saida:
-    
+while True:
+
     usr1 = int(input("Jogador 1, escolha: \n1- Pedra\n2- Papel\n3- Tesoura\nR "))
     usr2 = int(input("Jogador 2, escolha: \n1- Pedra\n2- Papel\n3- Tesoura\nR "))
     
