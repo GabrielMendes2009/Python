@@ -1,5 +1,3 @@
-saida = True
-
 while saida:
     
     usr1 = int(input("Jogador 1, escolha: \n1- Pedra\n2- Papel\n3- Tesoura\nR "))
@@ -15,7 +13,7 @@ while saida:
                  print("Vitória do Jogador 1!! (Pedra x Tesoura)\n")
             else:
                  print("O número escolhido pelo Jogador 2 está incorreto!!\n")
-                 saida = False
+                 break
         case 2: 
             if usr2 == 1:
                  print("Vitória do Jogador 1!! (Papel x Pedra)\n")
@@ -25,7 +23,7 @@ while saida:
                  print("Vitória do Jogador 2!! (Papel x Tesoura)\n")
             else:
                  print("O número escolhido pelo Jogador 2 está incorreto!!\n")
-                 saida = False
+                 break
         case 3:
             if usr2 == 1:
                  print("Vitória do Jogador 2!! (Tesoura x Pedra)\n")
@@ -35,7 +33,7 @@ while saida:
                  print("Empate!! (Tesoura x Tesoura)\n")
             else:
                  print("O número escolhido pelo Jogador 2 está incorreto!!\n")
-                 saida = False
+                 break
         case _:
             print("O número escolhido pelo Jogador 1 está incorreto!!\n")
-            saida = False
+            break
